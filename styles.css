@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: rebeccapurple;
+  overflow: hidden;
+}
+
+header h1 {
+  color: powderblue;
+  padding: 1rem;
+  text-shadow: -1px 0 hotpink, 0 1px hotpink, 1px 0 hotpink, 0 -1px hotpink;
+}
+
+h2 {
+  margin: 0;
+  margin: 50px 0;
+  border: 2px solid black;
+  padding-left: 1rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
